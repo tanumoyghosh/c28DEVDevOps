@@ -1,0 +1,10 @@
+---
+
+-   
+    hosts: instances
+    gather_facts: False
+    remote_user: tanumoy
+    become: true
+    become_user: tanumoy 
+    roles:
+      - ssh-access

@@ -1,0 +1,6 @@
+[instances]
+192.168.0.105
+
+[instances:vars]
+user_name=tanumoy
+user_des="Dev Team User"
